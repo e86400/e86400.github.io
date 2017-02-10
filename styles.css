@@ -1,12 +1,26 @@
 header {
 	text-align: center;
-	font-size: 18px;
+	font-size: 24px;
+	font-family: Mistral; 
+}
+
+#heads {
+	text-align: center;
+	padding: 30px;
+	color: #b30059;
+	font-size: 72px;
+	font-family: Mistral;
+	background: url(images/chicago.JPG);
+	background-size: 2000px 900px;
+	background-repeat: no-repeat;
+    background-position: right center;
 }
 
 body {
-	background: #262626;
-	font-family: Georgia;
- 	font-size: 14px;
+	background: #1a1a1a;
+	background-color: #0d0d0d;
+	font-family: Calibri;
+ 	font-size: 18px;
  	color: #b3b3b3;
  }
 	
@@ -21,22 +35,33 @@ h2 {
 	color:  #ff8c1a;
 	text-align: center;
 	font-size: 48px;
-	font-family: Pristina;
+	font-family: Mistral;
 }
 
 h3 {
-	color: #b35900;
+	color:  #ff8c1a;
 	font-size: 24px;
-	font-family: Pristina;
+	font-family: Calibri;
 }
 
 
-.states {
+.stateshave {
 	text-align: center;
-	-webkit-column-count: 2;
-	-webkit-column-rule: 3px outset #331a00;
-	-webkit-column-gap: 10px;
+	float: left;
+	padding-left: 80px;
+}
 
+
+.statesnot {
+	text-align: center;
+	float: right;
+	padding-right: 80px;
+}
+
+.countrieslist {
+	clear: both;
+	text-align: center;
+	float: none;
 }
 
 #contactme p {
@@ -44,13 +69,9 @@ h3 {
 }
 
 p {
- font-family: Georgia;
- font-size: 14px;
- margin: 15px;
-}
-
-.countrieslist {
-	-webkit-column-count: 2;
+ 	font-family: Calibri;
+ 	font-size: 20px;
+	 margin: 15px;
 }
 
 img {
@@ -61,10 +82,19 @@ img {
     width: 50%;
 }
 
+a {
+    color: #cca300;
+    font-family: Mistral;
+}
+
 a:visited {
 	color: green;
 }
 
 .footer {
 	text-align: center;
+	font-size: 24px;
+	font-family: Mistral; 
 }
+
+
