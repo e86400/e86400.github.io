@@ -4,16 +4,21 @@
 	<title>My Adventure Site</title>
 	<link rel="stylesheet" href="styles.css" type="text/css">
 </head>
+<header>
+<a href="contact.html">Say Hello</a>
+</header>
 <body>
 	<h1>Welcome to My Book of Adventures!</h1>
 	<p>I have a love for travel and adventures and although I currently have a few places checked off of my list, there are many, many more I'd like to experience. This is a collection of places I've been, places I'd like to go, and memorable moments in my life. This is my book of adventures.</p>
 
 	<p>I'd like to <b>visit all 50 states in the U.S.</b> as well as visit a few countries too. It is important that I keep track of where I've been in order to keep the memories and appreciate the times that I've been lucky enough to have those experiences. I would also like to include a little description of my visit for each place. I count a state visited when I can remember spending at least an hour there. For example, I'd still count Nevada as visited, even though I've only been to the Las Vegas Airport.</p>
 
-<h1>The United States</h1>
+<h2>The United States</h2>
 
-<b>States I have Been to in the U.S.:</b>
-<ul>
+
+<div class="states">
+	<h3>States I have Been to in the U.S.:</h3>
+<ul style="list-style-type:none">
 	<li>California</li>
 	<li>Colorado</li>
 	<li><a href="florida.html">Florida</a></li>
@@ -36,8 +41,8 @@
 	<li>Wisconsin</li>
 </ul>
 
-<b>States I have not been to in the U.S.:</b>
-<ul>
+	<h3>States I have not been to in the U.S.:</h3>
+<ul style="list-style-type:none">
 	<li>Arizona</li>
 	<li>Arkansas</li>
 	<li>Connecticut</li>
@@ -68,30 +73,32 @@
 	<li>Wyoming</li>
 
 </ul>
+</div>
 
-<h1>Countries On My List</h1>
+<h2>Countries On My List</h2>
+<div class="countrieslist">
 <table border=1>
  			 <tr>
     			<th>Country</th>
-    			<th>Visited</th>
+    			<th>Visited Alone</th>
     			<th>Year</th>
   			</tr>
   
   			<tr>
     			<td>United States</td>
-   			 	<td>Yes</td>
+   			 	<td>No</td>
    			 	<td>1992</td>
   			</tr>
  
   			<tr>
    				<td>Canada</td>
-    			<td>Yes</td>
+    			<td>No</td>
     			<td>1999</td>
   			</tr>
  
   			<tr>
     			<td>Mexico</td>
-    			<td>Yes</td>
+    			<td>No</td>
     			<td>2003</td>
   			</tr>
 
@@ -100,32 +107,25 @@
     			<td>Yes</td>
     			<td>2008</td>
   			</tr>
-
-  			<tr>
-   				<td>Iceland</td>
-    			<td>No</td>
-    			<td>N/A</td>
-  			</tr>
-
-  			<tr>
-   				<td>Ireland</td>
-    			<td>No</td>
-    			<td>N/A</td>
-  			</tr>
-
-  			<tr>
-   				<td>Australia</td>
-    			<td>No</td>
-    			<td>N/A</td>
-  			</tr>
 		</table>
+
+<h3> I'd also like to visit</h3>
+		<ul>
+			<li>Australia</li>
+			<li>Icleand</li>
+			<li>Ireland</li>
+			<li>Romania</li>
+		</ul>
+	</div>
+
+
 
 <p>My love of travel isn't an uncommon thing. There are many inspirational travelers out there who document them very well. Here's one I enjoy: <a href="http://www.nomadicmatt.com/travel-blog/">
 Matt's Travel Blog
 </a></p>
 <p>This inspirational travel blog is a good one because it has great usability and a lot of things to click on. With a travel blog, the most important elements are images and color and he includes that in a fun way. He also has ways to make the reader/viewer interact such as getting them on an email list or pages that help them get started on their own trips. Matt's site has some recognizable elements such as the basic HTML bones, image tags, paragraph tags, and the html for buttons. He also has a lot of things that are more complex such as `article class` tags which I believe includes a link to an article and the thumbnail settings.</p>
 
-<footer>Content by Elizabeth Martinez</footer>
+<div class="footer"><footer>Content by Elizabeth Martinez</footer></div>
 </body>
 
 </html>

@@ -1,5 +1,70 @@
+header {
+	text-align: center;
+	font-size: 18px;
+}
+
 body {
-	background: blue;
+	background: #262626;
+	font-family: Georgia;
+ 	font-size: 14px;
+ 	color: #b3b3b3;
+ }
+	
+h1 {
+	text-align: center;
+	color: #b30059;
+	font-size: 72px;
+	font-family: Mistral; 
+}
+
+h2 {
+	color:  #ff8c1a;
+	text-align: center;
+	font-size: 48px;
+	font-family: Pristina;
+}
+
+h3 {
+	color: #b35900;
+	font-size: 24px;
+	font-family: Pristina;
+}
+
+
+.states {
+	text-align: center;
+	-webkit-column-count: 2;
+	-webkit-column-rule: 3px outset #331a00;
+	-webkit-column-gap: 10px;
 
 }
 
+#contactme p {
+	text-align: center;
+}
+
+p {
+ font-family: Georgia;
+ font-size: 14px;
+ margin: 15px;
+}
+
+.countrieslist {
+	-webkit-column-count: 2;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+a:visited {
+	color: green;
+}
+
+.footer {
+	text-align: center;
+}
