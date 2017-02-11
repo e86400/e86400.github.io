@@ -70,8 +70,7 @@ h3 {
 
 p {
  	font-family: Calibri;
- 	font-size: 20px;
-	 margin: 15px;
+	margin: 35px;
 }
 
 img {
@@ -98,3 +97,20 @@ a:visited {
 }
 
 
+@media screen and (min-width: 100px) and (max-width: 700px) {
+ p {
+	font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 999px) {
+ p {
+	font-size:18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+ p {
+	font-size:24px;
+  }
+}
